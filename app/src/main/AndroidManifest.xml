@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.starbucks">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StarBucks">
+        <activity
+            android:name=".Account_details"
+            android:exported="false" />
+        <activity
+            android:name=".payment_activity"
+            android:exported="false" />
+        <activity
+            android:name=".track_the_order"
+            android:exported="false" />
+        <activity
+            android:name=".rating_act"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="message/rfc822" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".detail_activity"
+            android:exported="false" />
+        <activity
+            android:name=".order_activity"
+            android:exported="false" />
+        <activity
+            android:name=".food_activity"
+            android:exported="false" />
+        <activity
+            android:name=".login_activity"
+            android:exported="false" />
+        <activity
+            android:name=".signup_activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+    </application>
+
+</manifest>

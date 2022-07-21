@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ca"
+    android:orientation="vertical"
+    tools:context=".login_activity">
+
+    <EditText
+        android:id="@+id/Email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:hint="E-mail id "
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#DF3A3A"
+        android:textColorHighlight="#150A0A"
+        android:textColorHint="#A80C41"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#F8F5F5"
+        android:textColorHighlight="#151515"
+        android:textColorHint="#67100A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="245dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="login" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/loo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/fastfood" />
+
+</LinearLayout>

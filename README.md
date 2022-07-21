@@ -1,0 +1,2 @@
+# Food-Ordering-App-Bookh
+ Description: It is offering online ordering, delivery and takeaway is a smart strategy to appeal to a vast  audience of potential customers. Technologies Used: Android Studio, SQl Database Management System  Design the front-end layout of the application to make it user interactive interface.  Striking a balance between functional and aesthetic design.  Ensuring web design is optimized for smartphones.

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupp"
+    android:orientation="vertical"
+    tools:context=".signup_activity">
+
+
+    <ImageView
+        android:id="@+id/photo_id"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:clickable="false"
+        app:srcCompat="@android:drawable/sym_def_app_icon"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/Upload_Photo_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:minHeight="48dp"
+        android:soundEffectsEnabled="true"
+        android:text="Upload Photo"
+        android:textColor="#E5E6ED"
+        android:textColorHint="#620EF8"
+        android:textColorLink="#D60F0F"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:shadowColor="#F6F0F0"
+        android:textColor="#F4F0F0"
+        android:textColorHint="#EFE6E6"
+        android:textColorLink="#E8E1E1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/phone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColor="#F4F0F0"
+        android:textColorHint="#F1EBEB"
+        android:textColorLink="#F1EBEB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/Email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:hint="E-mail id "
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="#F4F0F0"
+        android:textColorHint="#F1E9E9"
+        android:textColorLink="#F4EEEE"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:foregroundGravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#F4F0F0"
+        android:textColorHint="#EFEAEA"
+        android:textColorLink="#F8F4F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="singup"
+        android:textColorHint="#F8F5F5" />
+
+</LinearLayout>
